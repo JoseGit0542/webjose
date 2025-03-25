@@ -1,1 +1,146 @@
-<h1> web de jose maria <h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RECETA DE CROQUETAS</title>
+        <meta charset="UTF-8">
+        <link rel ="stylesheet" href = "practica_repaso.css">
+
+    </head>
+    <body>
+       <header id = "cabecera">
+            <h1> RECETA DE CROQUETAS </h1> 
+
+       </header> 
+       <nav>
+        <div>
+            <ul id = "menu">
+                <li class = "elemento"><a href = "#INGREDIENTES"> PASOS E INGREDIENTES</a></li>
+                <li class = "elemento"><a href = "#seccion2">INFORMACION CALORICA</a></li>
+                <li class = "elemento"><a href = "#seccion3">SUSCRRIBIRSE</a></li>
+                <li class = "elemento"><a href = "#politica">COPYRIGHT</a></li>
+            </ul>
+        </div>
+        </nav>
+        <section>
+            <div id = "div1">
+                <a id = "INGREDIENTES" >INGREDIENTES:</a><br>
+                <ul id = "ul">
+                   <li class = "ingredientes"><a href ="https://cotobajo.es/por-que-cocinar-con-aceite-de-oliva-virgen-extra/#:~:text=Partiendo%20de%20la%20estabilidad%20que,menos%20que%20otros%20aceites%20vegetales."> Aceite de oliva</a></li> 
+                   <li class = "ingredientes">Harina</li>
+                   <li class = "ingredientes">Leche</li>
+                   <li class = "ingredientes">Jamón serrano</li>
+                   <li class = "ingredientes">Pan rallado</li>
+                   <li class = "ingredientes">Huevo</li>
+                </ul>
+                <br> 
+                <p id = "resultado">RESULTADO FINAL: </p>
+                <img src="croquetas.jpg" alt="croquetas" width="400" height="300" id="croqueta">
+             
+            </div>
+            <div>
+                <img src="flecha2.png" alt="flecha" width="150" height="150" id = "flecha">
+            </div>
+            <div>
+                <a id ="PASOS" >PASOS: </a><br>
+
+                <ol id = "PASITOS">
+                    <li><strong>Preparar la Bechamel:</strong> Derrite 50 g de mantequilla, añade 50 g de harina y cocina. Luego, agrega 500 ml de leche caliente, mezclando hasta que espese. Sazona con sal, pimienta y nuez moscada.</li>
+                    
+                    <li><strong>Agregar Ingredientes:</strong> Incorpora 150 g de jamón serrano picado a la bechamel y cocina unos minutos más. Vierte en un recipiente y deja enfriar.</li>
+                    
+                    <li><strong>Formar las Croquetas:</strong> Con la masa fría, toma porciones y forma cilindros o bolitas.</li>
+                 
+                    <li><strong>Empanizar:</strong> Pasa cada croqueta por harina, luego por huevo batido y finalmente por pan rallado.</li>
+                  
+                    <li><strong>Freír:</strong> Calienta aceite en una sartén y fríe las croquetas hasta dorarse. Sécalas en papel absorbente.</li>
+                  
+        
+                 </ol>
+
+
+            </div> 
+        </section>
+        <section id = "seccion2">
+            <div id = "div2">
+                <table id = "tabla">
+                    <tr>
+                        <td class = "fila1">INGREDIENTES</td>
+                        <td class = "fila1">CANTIDAD</td>
+                        <td class = "fila1">CALORIAS</td>
+
+
+
+                    </tr>
+                    <tr>
+                        <td>Aceite de oliva</td>
+                        <td>-200 ml</td>
+                        <td> +350 kcal</td> 
+                    </tr>
+                    <tr>
+                        <td>Harina</td>
+                        <td>100 g</td>
+                        <td> +350 kcal</td>
+                    </tr>
+                    <tr>
+                        <td>Leche</td>
+                        <td>500 ml</td>
+                        <td>+300 kcal</td>
+                    </tr>
+                    <tr>
+                        <td>Pan rallado</td>
+                        <td>100 g</td>
+                        <td>+ 350 kcal </td>
+                    </tr>
+                    <tr>
+                        <td>Huevos</td>
+                        <td>2</td>
+                        <td>+90 kcal</td>
+                    </tr> 
+                    <tr>
+                        <td>Jamón serrano</td>
+                        <td>150g</td>
+                        <td>+225 kcal</td>
+                    </tr>
+
+
+
+
+
+                </table>
+
+
+            </div>
+        </section>
+        <section id = "seccion3">
+            <div id = "division">
+                <h2>Suscribirse a la receta: </h2>
+                <form action="/tu_ruta_aqui" method="POST" id = "formulario">
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+        
+                    <label for="password">Contraseña:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+
+                    <label for ="direccion">Dirección Postal: </label><br>
+                    <input type ="text" id ="direccion" name = "direccion" placeholder="Calle, Num, Cod.Postal" ><br><br> 
+        
+                    <input type="submit" value="Terminar suscripción">
+                </form>
+                <br>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; Receta de croquetas 2024. Todos los derechos reservados.</p>
+            <p> Creador: José María Romero Arias</p>
+            <ul>
+                <li><a href="https://es.wikipedia.org/wiki/Pol%C3%ADtica_de_privacidad#:~:text=Una%20pol%C3%ADtica%20de%20privacidad%20es,el%20usuario%20crea%20una%20cuenta." id ="politica">Política de Privacidad</a></li>
+                <li><a href="/contacto" id = "contacto">Contacto</a></li>
+            </ul>
+        </footer>
+
+    </body>
+
+    
+    
+
+</html>
